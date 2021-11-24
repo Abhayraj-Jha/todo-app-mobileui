@@ -1,0 +1,819 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---------- CSS for index1-todo.html -----------*/
+
+.upper-container{
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+   
+}
+
+.upper-container1{
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#task{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#list{
+    font-size: 2.5rem;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+.upper-container2{
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#addlist{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top: 25px;
+}
+
+.card-container{
+    display: flex;
+}
+
+
+.card1{
+    
+    border: 1px solid orangered;
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px lightslategray;
+    margin-left: 20rem;
+    
+    
+}
+
+.div1{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    font-size: 25px;
+    width: 85%;
+    height: 15%;
+    text-align: left;
+    color: orangered;
+    border-bottom: 1px solid black;
+}
+
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    color: orangered;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    text-decoration: line-through;
+}
+
+.div3{
+    position: absolute;
+    top: 52%;
+    width: 90%;
+    height: 10%;
+    text-align: left;
+    font-size: 20px;
+}
+
+#check {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 8px;
+}
+
+.card2{
+    height: 45vh;
+    width: 15%;
+    border: 1px solid orangered;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px lightslategray;
+    position: relative;
+    margin-left: 1.5rem;
+    
+    
+
+}
+
+.div2-1{
+    color: orangered;
+    font-size: 25px;
+    width: 85%;
+    height: 15%;
+    border-bottom: 1px solid black;
+    text-align: left;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+
+}
+
+.div2-2{
+    width: 90%;
+    height: 10%;
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: line-through;
+    position: absolute;
+    top: 35%;
+    text-align: right;
+}
+
+.div2-3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    font-size: 20px;
+    top: 52%;
+
+}
+
+#check2{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 8px;
+}
+
+.card3{
+    height: 45vh;
+    width: 15%;
+    border: 1px solid orangered;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px lightslategray;
+    position: relative;
+    margin-left: 1.5rem;
+    
+    
+}
+
+.div3-1{
+    color: orangered;
+    font-size: 25px;
+    width: 85%;
+    height: 15%;
+    border-bottom: 1px solid black;
+    text-align: left;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+
+.div3-2{
+    width: 90%;
+    height: 10%;
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: line-through;
+    position: absolute;
+    top: 35%;
+    text-align: right;
+}
+
+.div3-3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    font-size: 20px;
+    top: 52%;
+}
+
+#check3{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 8px;
+}
+
+.next-btn{
+    height: 2rem;
+    width: 4rem;
+    margin: 1.5rem;
+    margin-left: 37.5rem;
+    background-color: white;
+    border: 1.5px solid orangered;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px lightgray;
+
+}
+
+.next{
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+
+.card4{
+    width: 90%;
+    height: 10vh;
+    margin-left: 5%;
+    margin-top: 2rem;
+    box-shadow: 5px 5px 5px lightgrey;
+    border: 1px solid orangered;
+    height: 10vh;
+    width: 90%;
+    border-radius: 8px;
+    display: none;
+}
+
+.card5{
+    width: 90%;
+    height: 10vh;
+    margin-left: 5%;
+    margin-top: 2rem;
+    box-shadow: 5px 5px 5px lightgrey;
+    border: 1px solid orangered;
+    height: 10vh;
+    width: 90%;
+    border-radius: 8px;
+    display: none;
+}
+
+.div4-1{
+    font-size: 25px;
+    width: 85%;
+    height: 15%;
+    text-align: left;
+    color: gray;
+    border: none;
+    margin-top: 27px;
+    margin-left: 49px;
+}
+
+.div5-1{
+    font-size: 25px;
+    width: 85%;
+    height: 15%;
+    text-align: left;
+    color: gray;
+    border: none;
+    top: 33%;
+    margin-top: 27px;
+    margin-left: 49px;
+}
+
+
+/*---------- CSS for index2-todo.html ------------*/
+
+
+
+.heading-container{
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    
+}
+
+
+.main-heading{
+    width: 100%;
+    height: 24px; 
+    border-bottom: 1px solid black; 
+    text-align: center;
+}
+
+.main-heading2{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: white;
+    padding: 0 0.5rem;
+}
+
+.back-container{
+    width: 30%;
+    height: 20%;
+    position: relative;
+   
+    margin: auto;
+}
+
+.arrow-circle{
+    position: absolute;
+    top: 0px;
+    left: 9.5rem;
+}
+
+
+.back{
+    position: absolute;
+    top: 0.6rem;
+    left: 12.2rem;
+    
+}
+
+.main-card-container{
+    position: relative;
+    height: 45vh;
+    width: 20%;
+    border: 1px solid orangered;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px lightslategray;
+    margin-top: 7.8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paris-cont{
+    width: 70%;
+    height: 15%;
+    border-bottom: 1px solid black;
+    text-align: left;
+    font-size: 1.4rem;
+    color: orangered;
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+
+.c-task{
+    width: 80%;
+    height: 10%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: right;
+    text-decoration: line-through;
+    color: orangered;
+    position: absolute;
+    top: 35%;
+
+}
+
+.p-task{
+    width: 80%;
+    height: 10%;
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+#check-box{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 1.2rem;
+}
+.fa-cont{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+
+.next-btn-2{
+    height: 2rem;
+    width: 4rem;
+    margin: 1.5rem;
+    margin-left: 37.8rem;
+    background-color: white;
+    border: 1.5px solid orangered;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px lightgray;
+
+}
+
+.next-2{
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+/*---------------CSS for index3-todo.html--------------*/
+
+
+
+
+.not-show{
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+
+.add-list-popup{
+    position: absolute;
+    top: 36%;
+    left: 36%;
+    width: 28%;
+    height: 28%;
+    background-color: white;
+    border: 1px solid orangered;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px lightslategray;
+}
+
+.new-list{
+    font-size: 1.5rem;
+    color: orangered;
+    text-align: center;
+    margin: 5% auto;
+}
+
+
+.text-area{
+    outline: 0;
+    border: 1.5px solid orangered;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 2px lightslategray;
+    width: 85%;
+    height: 15%;
+    margin-left: 7.5%;
+
+    
+}
+
+.add-btn{
+    width: 25%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 37.5%;
+    font-size: 1.2rem;
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 1rem;
+}
+
+.next-btn-3{
+    
+    height: 2rem;
+    width: 4rem;
+    margin-top: 0rem;
+    margin-left: 37.8rem;
+    background-color: white;
+    border: 1.5px solid orangered;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px lightgray;
+
+}
+
+.next-3{
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+/*---------------CSS for index4-todo.html--------------*/
+
+
+
+
+
+.add-item-popup{
+    position: absolute;
+    top: 36%;
+    left: 36%;
+    width: 28%;
+    height: 28%;
+    background-color: white;
+    border: 1px solid orangered;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px lightslategray;
+}
+
+
+.new-item{
+    font-size: 1.5rem;
+    color: orangered;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.text-area4{
+    outline: 0;
+    border: 1.5px solid orangered;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 2px lightslategray;
+    width: 85%;
+    height: 15%;
+    margin-left: 7.5%;
+}
+
+.add-btn4{
+    width: 25%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 37.5%;
+    font-size: 1.2rem;
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 1rem;
+}
+
+.next-btn-4{
+    
+    height: 2rem;
+    width: 4rem;
+    margin-top: 0;
+    margin-left: 37.8rem;
+    background-color: white;
+    border: 1.5px solid orangered;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px lightgray;
+
+}
+
+.next-4{
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.not-show-2{
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+
+
+
+/*-------- Media Queries -------*/
+
+
+
+/*-------- Media Queries for index.html --------*/
+
+
+
+@media (max-width: 600px){
+
+    .card-container{
+        flex-direction: column;
+    }
+
+    .upper-container{
+        width: 80%;
+        margin: 2.5rem auto;
+    }
+
+    #addlist{
+        display: none;
+    }
+
+    .upper-container1{
+        width: 80%;
+    }
+
+    .upper-container2{
+        width: 10%;
+        height: 100%;
+    }
+    
+    .div1,.div2-1,.div3-1{
+        color: gray;
+        border: none;
+        top: 33%;
+    }
+
+    .div2,.div2-2,.div3-2{
+        display: none;
+    }
+
+    .div3,.div2-3,.div3-3{
+        display: none;
+    }
+
+    .card1,.card2,.card3{
+        width: 90%;
+        height: 10vh;
+        margin-left: 5%;
+        margin-top: 2rem;
+        box-shadow: 5px 5px 5px lightgrey;
+    }
+    
+    .next-btn{
+        margin-left: 8.5rem;
+        margin-top: 2rem;
+    }
+
+    .card4{
+        width: 90%;
+        height: 10vh;
+        margin-left: 5%;
+        margin-top: 2rem;
+        box-shadow: 5px 5px 5px lightgrey;
+        border: 1px solid orangered;
+        height: 10vh;
+        width: 90%;
+        border-radius: 8px;
+        display: inline-block;
+    }
+    
+    .card5{
+        width: 90%;
+        height: 10vh;
+        margin-left: 5%;
+        margin-top: 2rem;
+        box-shadow: 5px 5px 5px lightgrey;
+        border: 1px solid orangered;
+        height: 10vh;
+        width: 90%;
+        border-radius: 8px;
+        display: inline-block;
+    }
+    
+    .div4-1{
+        font-size: 25px;
+        width: 85%;
+        height: 15%;
+        text-align: left;
+        color: gray;
+        border: none;
+        margin-top: 27px;
+        margin-left: 49px;
+    }
+    
+    .div5-1{
+        font-size: 25px;
+        width: 85%;
+        height: 15%;
+        text-align: left;
+        color: gray;
+        border: none;
+        top: 33%;
+        margin-top: 27px;
+        margin-left: 49px;
+    }
+    
+
+    
+}
+
+
+
+
+
+/*-------- Media Queries for index2-todo.html --------*/
+
+
+
+
+@media (max-width: 600px){
+
+    .heading-container{
+        width: 80%;
+        height: 10%;
+        display: inline-block;
+        margin-left: 2.5rem;
+        
+    }
+
+    .main-heading{
+        width: 100%;
+        border: none;
+
+    }
+
+    .main-heading2{
+        font-size: 2.3rem;
+        font-weight: bold;
+
+    }
+
+    .back-container{
+        display: inline-block;
+        position: absolute;
+        left: 0rem;
+        width: 0;
+        height: 0;
+    }
+
+    .back{
+        display: none;
+    }
+
+    .arrow-circle{
+        top: 3.4rem;
+        left: 1.8rem;
+        
+    }
+
+    .main-card-container{
+        
+        height: 45vh;
+        width: 70%;
+        margin: 2rem auto;
+        border: 1.5px solid orangered;
+        box-shadow: 5px 5px 5px lightgrey;
+    }
+
+    .paris-cont{
+        font-size: 1.6rem;
+    }
+
+    .c-task{
+        font-size: 1.3rem;
+        font-weight: bold;
+        left: 10%;
+    }
+
+    .p-task{
+       font-size: 1.2rem;
+       left: 12%;
+    }
+
+    .next-btn-2{
+        margin-left: 9rem;
+        margin-top: 0;
+        
+    }
+
+    
+}
+
+
+
+
+/*-------- Media Queries for index3-todo.html --------*/
+
+
+
+
+
+@media (max-width: 600px){
+    
+    .add-list-popup{
+        width: 82%;
+        height: 23%;
+        left: 9%;
+        border: 1.5px solid orangered;
+    }
+
+    .new-list{
+        margin: 5% auto;
+    }
+
+    .text-area{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .next-btn-3{
+        margin-left: 9rem;
+        margin-top: 1rem;
+        
+    }
+}
+
+
+
+
+/*-------- Media Queries for index4-todo.html --------*/
+
+
+
+
+@media (max-width: 600px){
+
+    .add-item-popup{
+        width: 82%;
+        height: 23%;
+        left: 9%;
+        border: 1.5px solid orangered;
+    }
+
+    .new-item{
+        margin: 5% auto;
+    }
+
+    .text-box{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .next-btn-4{
+        margin-left: 9rem;
+        
+    }
+}
+
+
